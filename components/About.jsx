@@ -302,7 +302,7 @@ const About = () => {
 
                 <TabsContent value="skills">
                   <div className="text-center xl:text-left">
-                    <h3 className="h3 mb-8">Tools I Use Everyday</h3>
+                    <h3 className="h3 mb-8">What I Use Everyday</h3>
 
                     <div className="mb-16">
                       <h4 className="text-xl font-semibold mb-2">Skills</h4>
@@ -331,7 +331,7 @@ const About = () => {
                       </h4>
                       <div className="border-b border-border mb-4"></div>
 
-                      <div>
+                      <div className="flex gap-x-8 justify-center xl:justify-start">
                         {getData(skillsData, "Tools").data.map(
                           (item, index) => {
                             const { imgPath } = item;
