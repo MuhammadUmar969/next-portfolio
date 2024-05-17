@@ -16,12 +16,12 @@ const serviceData = [
   {
     icon: <Blocks size={72} strokeWidth={0.8} />,
     title: "Frontend Development",
-    desc: "Welcome to my Frontend Development portfolio, where creativity meets functionality! As a passionate frontend developer, I specialize in crafting captivating digital experiences that seamlessly blend aesthetics with user-friendly interfaces. With expertise in HTML, CSS, JavaScript, and various frameworks like React and Next, I thrive in transforming ideas into visually stunning and responsive web applications. Explore my portfolio to witness how I turn visions into reality, one pixel at a time",
+    desc: "Step into my Frontend Development portfolio, where creativity meets functionality! Specializing in HTML, CSS, JavaScript, and frameworks like React, I craft captivating digital experiences.",
   },
   {
     icon: <Gem size={72} strokeWidth={0.8} />,
     title: "Backend Development",
-    desc: "Discover seamless backend solutions tailored to your needs. I specialize in crafting efficient, scalable systems using Node.js. From API development to database management, trust me to power your applications with precision and reliability. Let's bring your backend vision to life.",
+    desc: "Explore tailored backend solutions designed for your needs. Specializing in Node.js, I create efficient, scalable systems. Trust me for API development, database management, and turning your backend vision into reality.",
   },
 ];
 
@@ -29,7 +29,32 @@ const Services = () => {
   return (
     <section className="mb-13 xl:mb-36">
       <div className="container mx-auto">
-        <h2 className="section-title">My Services</h2>
+        <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
+          My Services
+        </h2>
+
+        <div className="grid xl:grid-cols-3 justify-center gap-y-12 xl:gap-y-24 xl:gap-x-8">
+          {serviceData.map((item, index) => {
+            return (
+              <Card
+                className="w-full max-w-[424px] h-[300px] flex flex-col pt-16 pb-10 justify-center items-center relative"
+                key={index}
+              >
+                <CardHeader className="text-primary absolute -top-[60px]">
+                  <div className="w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center">
+                    {item.icon}
+                  </div>
+                </CardHeader>
+                <CardContent className="text-center">
+                  <CardTitle className="mt-3 mb-3">{item.title}</CardTitle>
+                  <CardDescription className="text-lg">
+                    {item.desc}
+                  </CardDescription>
+                </CardContent>
+              </Card>
+            );
+          })}
+        </div>
       </div>
     </section>
   );
