@@ -27,7 +27,7 @@ const serviceData = [
 
 const Services = () => {
   return (
-    <section className="mb-13 xl:mb-36">
+    <section className="mt-32 mb-13 xl:mb-36">
       <div className="container mx-auto">
         <h2 className="section-title mb-12 xl:mb-24 text-center mx-auto">
           My Services
@@ -41,7 +41,7 @@ const Services = () => {
                 key={index}
               >
                 <CardHeader className="text-primary absolute -top-[60px]">
-                  <div className="w-[140px] h-[80px] bg-pink-100 dark:bg-background flex justify-center items-center">
+                  <div className="w-[140px] h-[80px]  dark:bg-background flex justify-center items-center">
                     {item.icon}
                   </div>
                 </CardHeader>
