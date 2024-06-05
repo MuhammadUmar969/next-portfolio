@@ -10,10 +10,10 @@ const Contact = () => {
               <span className="w-[30px] h-[2px] bg-primary"></span>
               Say Hello 👋
             </div>
-            <h1 className="h1 max-w-md mb-8">Let's Work Together.</h1>
+            <h1 className="h1 max-w-md mb-8">Lets Work Together.</h1>
             <p className="subtitle max-w-[400px]">
-              Welcome to our contact page! We're ready to collaborate, innovate,
-              and achieve your goals. Reach out today and let's make it happen!
+              Welcome to our contact page! We are ready to collaborate, innovate,
+              and achieve your goals. Reach out today and lets make it happen!
             </p>
           </div>
 

@@ -53,7 +53,7 @@ const Work = () => {
           <h2 className="section-title mb-4">Latest Projects</h2>
           <p className="subtitle mb-4">
             Introducing my latest projects, where innovation meets excellence.
-            With meticulous planning and creativity, I've crafted a solution
+            With meticulous planning and creativity, I have crafted a solution
             that sets a new industry standard. From conception to execution,
             these projects exemplifies my dedication to delivering impactful
             results

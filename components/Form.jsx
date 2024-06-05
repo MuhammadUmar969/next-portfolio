@@ -23,7 +23,7 @@ const Form = () => {
         <User className="absolute top-4 right-6" size={20} />
       </div>
       <Button className="bg-orange-500 hover:bg-orange-600 flex items-center max-w-[166px]">
-        Let's Talk
+        Lets Talk
       </Button>
     </form>
   );

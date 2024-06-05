@@ -7,7 +7,7 @@ const Cta = () => {
       <div className="container mx-auto">
         <div className="flex flex-col items-center">
           <h2 className="h2 max-w-xl text-center mb-8">
-            Prepare to turn your idea into the reality? I'm here to help
+            Prepare to turn your idea into the reality? I am here to help
           </h2>
           <Link href="/contact">
             <Button className="bg-orange-500 hover:bg-orange-600">Contact me</Button>
