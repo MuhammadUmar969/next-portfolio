@@ -29,12 +29,12 @@ const Contact = () => {
 
             <div className="flex items-center gap-x-8">
               <HomeIcon size={18} className="text-primary" />
-              <div>Dastagir Society FB Area Block 15, Karachi</div>
+              <div>P63A Punjab Town Malir Halt, Karachi</div>
             </div>
 
             <div className="flex items-center gap-x-8">
               <PhoneCall size={18} className="text-primary" />
-              <div>+92 333 2404 969</div>
+              <div>+92 333 2404969</div>
             </div>
           </div>
 

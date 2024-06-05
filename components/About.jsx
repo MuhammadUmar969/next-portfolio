@@ -21,7 +21,7 @@ const InfoData = [
   },
   {
     icon: <Phone size={20} />,
-    text: "+923332404969",
+    text: "+92 333 2404969",
   },
   {
     icon: <MailIcon size={20} />,
@@ -37,7 +37,7 @@ const InfoData = [
   },
   {
     icon: <HomeIcon size={20} />,
-    text: "Dastagir Society FB Area, Karachi, Pakistan",
+    text: "P63A Punjab Town Malir Halt, Karachi",
   },
 ];
 
